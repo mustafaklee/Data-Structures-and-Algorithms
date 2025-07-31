@@ -1,0 +1,2 @@
+﻿Real life example of queue:
+The system from the point of sale of a restaurant

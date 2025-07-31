@@ -1,0 +1,18 @@
+﻿Stack applications:
+
+undo / redo functionality
+word reversal
+stack back/forward on browsers
+backtracking algorithms
+bracket verification
+
+
+Undo/Redo: Kullanıcı işlemlerini geri alma ve tekrar yapma.
+
+Word Reversal: Kelimeleri ya da metinleri tersine çevirme.
+
+Back/Forward: Tarayıcı geçmişinde geri ve ileri gitme.
+
+Backtracking: Çözüme ulaşana kadar deneme-yanılma yöntemi ile çözüm yolu arama.
+
+Bracket Verification: Açılış ve kapanış parantezlerinin doğru şekilde eşleşip eşleşmediğini kontrol etme.

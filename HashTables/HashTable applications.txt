@@ -1,0 +1,29 @@
+﻿Hashtable applications:
+
+is used in fast data lookup - the compiler symbol table
+indexing the database
+caches
+unique data representation
+
+
+
+1. Hızlı Veri Arama - Derleyici Sembol Tablosu
+Açıklama: Derleyiciler, kodu derlerken semboller (değişkenler, fonksiyonlar, vb.) ve bu sembollerin adresleri ile ilgili bilgiler tutar. Hash tablosu, sembol tablosunda arama yapmayı hızlılaştırarak, semboller arasında hızlı erişim sağlar.
+
+Örnek: Bir fonksiyon ya da değişken çağrıldığında, derleyici bu sembolün adresini hash tablosundan hızlıca bulabilir.
+
+2. Veritabanı İndeksleme
+Açıklama: Veritabanlarında, büyük veri kümelerinde arama yapabilmek için hash tablosu kullanılarak, hızlı veri erişimi sağlanır. Hash tablosu, veri kayıtlarını hızlı bir şekilde indeksler ve sorgularda verimli sonuçlar elde edilmesini sağlar.
+
+Örnek: Bir veritabanında kullanıcı bilgilerini sorgularken, kullanıcı ID’si hash tablosu kullanılarak hızlıca bulunabilir.
+
+3. Önbellekler (Caches)
+Açıklama: Hash tablosu, veri önbellekleme (caching) sistemlerinde kullanılarak daha önceki verilerin hızlı bir şekilde tekrar kullanılmasını sağlar. Bu sayede veriye erişim süreleri kısaltılır.
+
+Örnek: Web sayfası yükleme sırasında, önceki sayfa verileri cache (önbellek) içinde saklanır, böylece sonraki erişimlerde daha hızlı yanıt alınır.
+
+4. Benzersiz Veri Temsili (Unique Data Representation)
+Açıklama: Hash tablosu, her veriyi bir anahtar-değer çiftine (key-value pair) dönüştürerek benzersiz bir temsil sağlar. Bu, duplicate (yinelenen) verilerin engellenmesine yardımcı olur ve veri koleksiyonlarının her öğesinin benzersiz olmasını garanti eder.
+
+Örnek: Bir listeyi hash tablosuna dönüştürerek, her bir öğenin yalnızca bir kez listelenmesini sağlayabiliriz, bu da duplicate (yinelenen) verileri ortadan kaldırır.
+
